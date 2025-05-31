@@ -8,7 +8,7 @@ Cette application Android permet de calculer l'**Indice de Masse Corporelle (IMC
 
 | Exemple d'interface (Maigreur) |
 |--------------------------------|
-| ![IMC Maigreur](./screenshots/maigreurScrenn.png) |
+| ![IMC Maigreur](./screenshots/maigre1.png) |
 
 > D'autres images peuvent être ajoutées pour les cas "Surpoids", "Normal", "Obésité", etc.
 
@@ -16,13 +16,19 @@ Cette application Android permet de calculer l'**Indice de Masse Corporelle (IMC
 
 | Exemple d'interface (Poids normal) |
 |-----------------------------------|
-| ![IMC Normal](./screenshots/normalSc.png) |
+| ![IMC Normal](./screenshots/normal1.png) |
 
 ---
 
 | Exemple d'interface (SurPoids) |
 |-----------------------------------|
-| ![IMC Normal](./screenshots/surpoidSc.png) |
+| ![IMC Normal](./screenshots/surpoid1.png) |
+
+---
+
+| Exemple d'interface (obésité) |
+|-----------------------------------|
+| ![IMC Normal](./screenshots/obesite1.png) |
 
 ---
 
