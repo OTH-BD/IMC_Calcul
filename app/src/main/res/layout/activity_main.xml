@@ -33,23 +33,70 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp" />
-
-        <EditText
-            android:id="@+id/poidsInput"
+        <!-- Poids -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Poids en Kg"
-            android:inputType="numberDecimal"
-            android:gravity="center" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
 
-        <EditText
-            android:id="@+id/tailleInput"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poids :"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/poidsInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="87"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Taille -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Taille en cm"
-            android:inputType="number"
-            android:gravity="center"
-            android:layout_marginTop="12dp" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taille :"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tailleInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="177"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cm"
+                android:textSize="16sp" />
+        </LinearLayout>
+
 
         <Button
             android:id="@+id/calculerBtn"
