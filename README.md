@@ -8,7 +8,7 @@ Cette application Android permet de calculer l'**Indice de Masse Corporelle (IMC
 
 | Exemple d'interface (Maigreur) |
 |--------------------------------|
-| ![IMC Maigreur](./screenshots/imc_maigreur.png) |
+| ![IMC Maigreur](./screenshots/maigreurScrenn.png) |
 
 > D'autres images peuvent être ajoutées pour les cas "Surpoids", "Normal", "Obésité", etc.
 
