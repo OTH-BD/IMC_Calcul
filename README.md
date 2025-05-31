@@ -14,6 +14,18 @@ Cette application Android permet de calculer l'**Indice de Masse Corporelle (IMC
 
 ---
 
+| Exemple d'interface (Poids normal) |
+|-----------------------------------|
+| ![IMC Normal](./screenshots/normalSc.png) |
+
+---
+
+| Exemple d'interface (SurPoids) |
+|-----------------------------------|
+| ![IMC Normal](./screenshots/surpoidSc.png) |
+
+---
+
 ## ⚙️ Fonctionnalités
 
 - Entrée du **poids en kilogrammes**
