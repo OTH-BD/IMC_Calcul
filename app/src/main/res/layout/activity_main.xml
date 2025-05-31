@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="#FAEFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMC For II-Master BDCC 1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:src="@drawable/imc"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/poidsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poids en Kg"
+            android:inputType="numberDecimal"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/tailleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taille en cm"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/calculerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculer IMC"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#9370DB"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/resultatIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votre IMC est:"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageCategorie"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/categorieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
